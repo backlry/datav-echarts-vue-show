@@ -3,7 +3,8 @@
         <dv-full-screen-container id="dv-full-screen-container">
             <topheader/>
             <div class=block-top-content>
-                <firstPie/>
+                <!-- <firstPie/> -->
+                <secondpie/>
                 <china/>
                 <barcolumn/>
                
@@ -11,7 +12,8 @@
             <div class=block-middle-content>
                 <capsuleChart/>
                 <firstbar/>
-                <list/>
+                <!-- <barstack/> -->
+                <barcolumnstack/>
             </div>
             
 
@@ -23,12 +25,15 @@
 
 <script>
 import topheader from './topHeader.vue'
-import firstPie from './pie1.vue'
+// import firstPie from './pie1.vue'
+import secondpie from './pie-stack.vue'
 import firstbar from './bar.vue'
 import barcolumn from './bar_column.vue'
 import capsuleChart from './capsule-chart.vue'
 import china from './china.vue'
-import list from './list.vue'
+// import list from './list.vue'
+// import barstack from './bar-stack.vue'
+import barcolumnstack from './bar-column-stack.vue'
 
 // import header from "./pie1.vue"
 export default {
@@ -37,13 +42,16 @@ export default {
         return {}
     },
     components:{
-        firstPie,
+        // firstPie,
         firstbar,
         barcolumn,
         capsuleChart,
         china,
-        list,
-        topheader
+        // list,
+        topheader,
+        // barstack,
+        barcolumnstack,
+        secondpie,
 
         
     }
