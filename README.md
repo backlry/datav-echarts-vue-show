@@ -5,3 +5,5 @@
 使用：拉取代码之后npm安装echarts及datav，之后在vscode终端，npm run serve 
 
 新手制作，不足之处希望多多指教。
+
+![](C:\Users\15487\Desktop\新建文件夹%20(2)\1695630061309.jpg)
